@@ -1,0 +1,21 @@
+# Local settings, sources and backup outputs do not belong in this repository.
+.env
+.env.*
+!.env.example
+credentials.json
+*.key
+*.pem
+node_modules/
+__pycache__/
+.venv/
+.cache/
+.DS_Store
+Thumbs.db
+.project-save/
+current/
+history/
+*.pending
+*.log
+*.tar.gz
+temp/
+tmp/
